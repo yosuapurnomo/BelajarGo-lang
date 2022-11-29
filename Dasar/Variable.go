@@ -9,9 +9,11 @@ func main(){
 	fmt.Println(firstName)
 	fmt.Println(lastName)
 
+	// deklarasi secara langsung tanpa memberikan tipe data dan mengikutin sesuai dengan tipe data value yang diberikan
 	age := 23
 	fmt.Println("Umur", age)
 
+	// deklarasi banyak variable
 	var (
 		country = "Indonesia"
 		city = "Surabaya"

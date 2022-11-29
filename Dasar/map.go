@@ -9,4 +9,14 @@ func main(){
 	}
 
 	fmt.Println(dataMap)
+
+	book := make(map[string]string)
+	book["title"] = "Buku Golang"
+	book["author"] = "Yosua Purnomo"
+	book["salah"] = "delete"
+	fmt.Println(book)
+
+	delete(book, "salah")
+
+	fmt.Println(book)
 }
